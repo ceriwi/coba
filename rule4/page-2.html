@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="theme-color" content="#1a237e">
+        <title>Simple Blog - Surabaya</title>
+        <link href="//stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+    </head>
+    <body>
+        <script type="application/javascript">
+            document.addEventListener('DOMContentLoaded', function() {
+                    var blog =`        <nav class="navbar navbar-expand-lg navbar-light bg-light mb-5">
+                    <a class="navbar-brand" href="#">Ceriwi</a>
+                </nav>
+                <div role="main" class="container">
+                    <div class="row">
+                        <div class="col-12 blog-main">
+                            <div class="col-md-8 blog-header">
+                                <h2 class="blog-post-title">Surabaya</h2>
+                                <p class="blog-post-meta">Sabtu 11 Agustus 2018 oleh <a href="#">Syaiful</a></p>
+                            </div>
+                            <hr />
+                            <div class="col-md-8 blog-content">
+                                <p class="text-justify">
+                                    Surabaya, Kota dimana aku dilahirkan, kota pahlawan yang penuh dengan kenangan.
+                                    new ant dengan nomor 35A tempat dimana aku biasa tertawa dengan lepas bebas tanpa beban pikiran
+                                    sebelum negara API mulai menyerang yang pada akhirnya memaksaku untuk berpindah dari tempat satu ke tempat lainnya.
+                                </p>
+                                <p class="text-justify">bersambung...</p>
+                            </div>
+                            <hr />
+                        </div>
+                    </div>
+                    <nav>
+                        <ul class="pagination justify-content-end">
+                            <li class="page-item"><a class="page-link" href="index.html">1</a></li>
+                            <li class="page-item active"><a class="page-link" href="page-2.html">2 </a></li>
+                            <li class="page-item"><a class="page-link" href="page-3.html">3</a></li>
+                        </ul>
+                    </nav>   
+                </div>`;
+                document.body.innerHTML = blog + document.body.innerHTML;
+        
+            });
+        </script>
+    </body>
+</html>
